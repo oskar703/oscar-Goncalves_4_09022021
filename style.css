@@ -1,0 +1,412 @@
+/* Main Page */
+body {margin:0px 0px 0px 0px;
+	  /*background-image: url(../tryoutsp4/images/7.png);
+	  opacity:1;*/}
+
+body {font-family:"helvetica",sans-serif;}
+
+a {text-decoration:none;color:#000000;}
+
+
+/* HEADER for first and second page */
+
+header {/*
+     display: flex;
+     flex-direction:row;*/}
+
+.firstlogo {margin: 0px 0px 0px 200px;}
+
+.logo1 {}
+
+nav {display: flex;
+     flex-direction: row;}
+
+ul {
+	display: flex;
+     flex-direction: row;
+     list-style-type:none;
+     margin:20px 0px 0px 600px;}
+
+.navlink2 {margin:0px 0px 0px 50px;}
+
+/* MAIN */
+
+/* logo + background picture */
+.firstbanner {
+/*background-image:url(../tryoutsp4/images/6.jpg);*//*********************/
+              background-attachment:fixed;}
+
+.logo {margin: 100px 0px 0px 700px;}
+
+.firstbannertitle {color:#fff;/*#ff9966;*/
+                   margin: 50px 0px 0px 640px;}
+
+.button {
+  background-color:#ff9966;
+  border: none;
+  border-radius:25px;
+  color: #000;/*white;*/
+  padding: 15px 30px 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin: 50px 0px 50px 715px;}
+
+/* second banner information + reference */
+.secondbanner {height:auto;
+               margin: -50px 0px 0px 0px;
+               padding-bottom:100px;}
+
+.secondbannertitle {font-weight:normal;
+	                 color:#000;
+                   margin: 50px 0px 0px 500px;
+                   padding: 50px 0px 30px 0px;}
+
+.infopocketcontainer {display: flex;
+	                 flex-direction:row;}
+
+.infopocket {border-radius:25px;
+             margin: 0px 0px 0px 150px;}
+
+.infopockettitle {margin-left:100px;} 
+
+.secondbannerparagraph {font-size:18px;
+	                    margin:100px 0px 0px 600px;}  
+
+.secondbannersource {font-size:15px;
+                     margin:0px 0px 0px 50px;}
+
+/* third banner */
+.thirdbanner {padding: 100px 0px 100px 0px;}
+
+.thirdbanner {/*background-image:url(../tryoutsp4/images/5.bmp);*/
+              opacity:1;
+              background-attachment:fixed;}
+
+.thirdbannerdarksquare {background-color:#000;
+                        opacity:0.6;
+                         width: 50%;
+                         margin:0px 0px 0px 350px;
+                         padding: 50px 0px 50px 0px;}
+
+.darksquarep1 {color:#fff;/*#ff9966;*/
+               margin:0px 0px 0px 100px;
+               font-size:22px;}
+
+.darksquarep2 {color:#fff;
+                margin:25px 20px 25px 100px;
+                font-size:18px;}
+
+.darksquarelink {color:white;
+                 margin:0px 0px 0px 300px;
+                 text-decoration:underline;}
+
+/* fourth banner *******************************/
+
+.fourthbanner {/*background-image:url(../tryoutsp4/images/10.png);*/}
+
+.fourthbanner {padding: 100px 0px 100px 0px;}
+
+.fourthbannertitle {color:#000;
+                     font-size:20px;
+                     font-weight:normal;
+                     margin: 0px 0px 70px 600px;}
+
+.fourthbannertitlespan {margin: 0px 0px 0px 100px;
+                        color:#000;}
+
+.doublepocket1 {display:flex;
+                flex-direction:row;
+                margin:0px 0px 50px 450px;}
+
+.fourthbannerpocket1 {margin:0px 30px 0px 0px;}
+
+.fourthbannerpocket1pic {width:300px;
+                         height:300px;}
+
+ .fourthbannerpocket1pic:hover {color: red;}         
+
+.fourthbannerpocket1title {}
+.fourthbannerpocket1paragraph {}
+
+.fourthbannerpocket2 {}
+
+.fourthbannerpocket2pic {width:300px;
+                         height:300px;}
+
+.fourthbannerpocket2title {}
+.fourthbannerpocket2paragraph {}
+
+
+.doublepocket2 {display:flex;
+                flex-direction:row;
+                margin:0px 0px 0px 450px;}
+
+.fourthbannerpocket3 {margin:0px 30px 0px 0px;}
+
+.fourthbannerpocket3pic {width:300px;
+                         height:300px;}
+
+.fourthbannerpocket3title {}
+.fourthbannerpocket3paragraph {}
+
+.fourthbannerpocket4 {}
+
+.fourthbannerpocket4pic {width:300px;
+                         height:300px;}
+
+.fourthbannerpocket4title {}
+.fourthbannerpocket4paragraph {}
+
+/* fifth banner */
+
+.fifthbanner /*{*/
+/*background-image:url(../tryoutsp4/images/6.jpg);}*//********************/
+
+/*.fifthbanner {padding: 100px 0px 0px 0px;}*/ 
+
+
+.fifthbannertitle {padding-top:150px;
+                   margin:0px 0px 0px 615px;
+                   color:#fff;/*#ff9966;*/
+                  font-size:25px;}
+
+.fifthbannertitlespan {margin:0px 0px 0px 70px;
+                       color:#ffff;/*#ff9966;*/}
+
+/* footer for first and second page */
+
+footer {background-color:#ff9966;
+       margin: -17px 0px 0px 0px;}
+
+.footerparagraph {color:#000;
+                 font-size:17px;
+                 font-weight:bold;
+                 margin:0px 0px 0px 600px;
+                 padding-top:50px;}
+
+.social {color:#000;
+         font-size:25px;}
+
+.footerlinktext {color:#ff9966;}
+
+.socialcontainer {
+                   width:500px;
+                  display:flex;
+                 flex-direction:row;
+                 justify-content:space-between;
+                 margin: 50px 0px 0px 530px;
+                 padding-bottom:100px;}
+
+/* End Main Page */
+
+/* Second Page */
+
+/*.wallpaper {
+background-image: url(../tryoutsp4/images/7.png);}*/
+/***********************************************/
+
+.wallpaper {background-color:#dc8b63;}
+
+.wallpapertitle {padding: 100px 0px 25px 0px;
+                 margin: 0px 0px 0px 600px;}
+
+.wallpaperparagraph {padding: 0px 0px 100px 0px;
+                     margin: 0px 0px 0px 550px;}
+
+form {margin:100px 0px 0px 50px;}
+
+#name, #email, #message {width: 50%;
+                         height:30px;
+                         border:2px solid black;
+                         font-size: 20px;}
+
+.btn {padding: 10px 20px 10px 20px;
+      background-color:#ff9966;
+      font-size: 18px;
+      color:#000;}
+
+.directions {margin:0px 0px 100px 50px;}
+
+/* End Second Page */
+
+/*-RESPONSIVE--RESPONSIVE--RESPONSIVE--RESPONSIVE-
+
+/* main page */
+
+/* header applies for main page and second page */
+
+/* < 1400px */
+@media only screen and (max-width: 1400px) {
+                       ul {margin-left:400px;}
+}
+
+/* < 1200px */
+@media only screen and (max-width: 1200px) {
+                      ul {margin-left:200px;}
+}   
+
+/* < 1000px */
+@media only screen and (max-width: 1000px) {
+                       ul {margin-left:50px;}
+} 
+
+/* < 845px */
+@media only screen and (max-width: 845px) {
+                        nav {display:flex;
+                             flex-direction:column;
+                             margin-bottom:25px;}
+
+                        .firstlogo {margin: 0px 0px 0px 10px;}
+} 
+
+/* < 410px */
+@media only screen and (max-width: 410px) {
+                      .logo1 {width:300px;}
+}
+/* end header responsive ****************************/
+
+/* < 1400px */
+@media only screen and (max-width: 1400px) {
+                       .logo {margin-left:100px;}
+                       .firstbannertitle {margin-left:25px;}
+                       .button {margin-left:120px;} 
+                       .secondbannertitle {margin-left:5px;}
+                       .infopocket {margin-left:20px;}
+                       .secondbannerparagraph {margin-left:300px;}
+                       .thirdbannerdarksquare {margin-left: 20px;}
+                       .darksquarep1 {margin-left:10px;}
+                       .darksquarep2 {margin-left:10px;}
+                       .darksquarelink {margin-left:10px;}
+                       .fourthbannertitle {margin-left:20px;}
+                       .doublepocket1 {margin-left:20px;}
+                       .doublepocket2 {margin-left:20px;}
+}
+
+/* < 1000px */
+@media only screen and (max-width:1000px) {
+                       .thirdbannerdarksquare {margin-left:1px;
+                                               width:100%;}
+
+                       /*.fifthbannertitle {margin-left:5px;}*/
+}
+
+/* < 800px */
+@media only screen and (max-width:800px) {
+                       .secondbannerparagraph {margin-left:20px;}
+                       .infopockettitle {margin-left:20px;}
+}
+
+/* <670 */
+@media only screen and (max-width:670px) {
+        .doublepocket1, .doublepocket2 {display: flex;
+                        flex-direction:column;}
+}
+
+/* < 600px */
+@media only screen and (max-width:600px) {
+                       .infopockettitle {margin-left:10px;}
+}
+
+/* < 500px */
+@media only screen and (max-width:500px) {
+                       .infopockettitle {margin-left:10px;}
+                       .infopocketcontainer {display: flex;
+                                          flex-direction:column;}                 
+}
+                                                                                                                                                                    
+/* < 375px */
+@media only screen and (max-width:375px) {
+                       .infopocketcontainer {
+                         display: flex;
+                        flex-direction:column;}
+
+                        .infopocket {margin-left:15px;}
+                        .secondbannerparagraph {margin-left:15px;}
+
+                        .thirdbannerdarksquare {margin-left:1px;
+                                                width: 100%;}
+
+                        .darksquarep1,.darksquarep2,.darksquarelink {
+                         margin-left:5px;}  
+                        
+                        .fourthbannertitle {margin-left:15px;
+                                            font-size:18px;}
+                        .fourthbannertitlespan {margin-left:2px;}
+
+                        .doublepocket1,.doublepocket2 {display: flex;
+                                                       flex-direction:column;
+                                                       margin-left:25px;}
+
+                         .fifthbannertitle {font-size:18px;
+                                            margin-left:10px;}
+}
+
+/* footer applies for main page and second page */
+/* < 1400px */
+@media only screen and (max-width: 1400px) {
+           .footerparagraph {margin-left:500px;}
+           .socialcontainer {margin-left:400px;}
+}
+
+/* < 1200px */
+@media only screen and (max-width: 1200px) {
+           .footerparagraph {margin-left:450px;}
+           .socialcontainer {margin-left:350px;}
+}
+
+/* < 1100px */
+@media only screen and (max-width: 1100px) {
+           .footerparagraph {margin-left:200px;}
+           .socialcontainer {margin-left:200px;}
+}
+
+/* < 750px */
+@media only screen and (max-width: 750px) {
+           .footerparagraph {margin-left:50px;}
+           .socialcontainer {margin-left:50px;}
+}
+
+/* < 580px */
+@media only screen and (max-width: 580px) {
+           .footerparagraph {margin-left:25px;}
+           .socialcontainer {width:300px;}
+}
+
+/* < 375px */
+@media only screen and (max-width: 375px) {
+           .footerparagraph {margin-left:10px;}
+           .socialcontainer {width:280px;}
+}
+/* end footer responsive */
+
+/* end main page responsive *************************************/
+
+/* second page **************************************************/
+
+/* < 1400px */
+@media only screen and (max-width: 1400px) {
+            .wallpaper {}
+            .wallpapertitle {margin: 0px 0px 0px 50px;}
+            .wallpaperparagraph {margin: 0px 0px 0px 50px;}
+            form {margin: 50px 0px 0px 50px;}
+}
+
+/* < 380px */
+@media only screen and (max-width: 1400px) {
+            .wallpapertitle {margin: 0px 0px 0px 15px;}
+            .wallpaperparagraph {margin: 0px 0px 0px 15px;}
+            form {margin: 50px 0px 0px 15px;}
+            .directions {margin:0px 0px 20px 15px;}          
+}
+
+/* end second page responsive ***********************************/
+
+
+
+
+
+
